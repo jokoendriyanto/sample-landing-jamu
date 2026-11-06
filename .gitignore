@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Editor
+.vscode/
+.idea/
+
+# Local env
+.env
+.env.local
+
+# Internal working docs (tidak perlu di repo publik)
+docs/superpowers/
+design-system/jamu-pegal-linu-sukoharjo/pages/

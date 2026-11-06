@@ -1,0 +1,62 @@
+/* ============================================================
+   JAMU PEGAL LINU SUKOHARJO — Design Tokens (CSS Variables)
+   Source: PRD §3 + design-system/MASTER.md
+   ============================================================ */
+
+/* ---------- Color Palette (PRD §3.2) ---------- */
+:root {
+  /* Brand Colors */
+  --color-primary:   #245B43;  /* Forest Green — buttons, headings, brand elements */
+  --color-secondary: #8BA88E;  /* Sage Green — decorative, supporting elements */
+  --color-accent:    #C69B53;  /* Warm Gold — limited accent only */
+
+  /* Surface Colors */
+  --color-bg:        #FAF8F1;  /* Cream — main background */
+  --color-surface:   #FFFFFF;  /* White — cards, content areas */
+
+  /* Text Colors */
+  --color-text:      #252B27;  /* Dark Charcoal — primary text */
+  --color-muted:     #666E68;  /* Muted Gray — secondary text (darkened from PRD
+                                  #737B75 to meet WCAG AA 4.5:1 on all surfaces) */
+  --color-border:    #E8EAE5;  /* Soft Gray — borders */
+  --color-ring:      #245B43;  /* Focus ring */
+
+  /* Semantic */
+  --color-success:   #16A34A;
+  --color-error:     #DC2626;
+  --color-whatsapp:  #25D366;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(36, 91, 67, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px rgba(36, 91, 67, 0.08), 0 2px 4px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 12px 32px rgba(36, 91, 67, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+
+  /* Border Radius (PRD §7.4) */
+  --radius-sm:   8px;
+  --radius-md:   16px;
+  --radius-lg:   24px;
+  --radius-full: 9999px;
+
+  /* Spacing Scale */
+  --space-xs:  4px;
+  --space-sm:  8px;
+  --space-md:  16px;
+  --space-lg:  24px;
+  --space-xl:  32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-section: 96px;
+
+  /* Layout */
+  --container-width:   1200px;
+  --container-padding: clamp(16px, 4vw, 40px);
+
+  /* Typography (PRD §3.3) */
+  --font-heading: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+
+  /* Z-index */
+  --z-nav:     100;
+  --z-float:   200;
+  --z-overlay: 300;
+}

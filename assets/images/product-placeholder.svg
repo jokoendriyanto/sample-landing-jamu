@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="575" viewBox="0 0 460 575" role="img" aria-label="Ilustrasi botol jamu pegal linu tradisional Sukoharjo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FAF8F1"/>
+      <stop offset="100%" stop-color="#F0EDE2"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8A5A22"/>
+      <stop offset="35%" stop-color="#C08A3E"/>
+      <stop offset="60%" stop-color="#9A6528"/>
+      <stop offset="100%" stop-color="#6E4419"/>
+    </linearGradient>
+    <linearGradient id="liquid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5C3A14"/>
+      <stop offset="100%" stop-color="#3B2410"/>
+    </linearGradient>
+    <linearGradient id="label" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FBF7EC"/>
+      <stop offset="100%" stop-color="#EDE6D4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="460" height="575" fill="url(#bg)"/>
+  <ellipse cx="230" cy="300" rx="190" ry="200" fill="url(#glow)"/>
+
+  <!-- decorative leaves -->
+  <g opacity="0.5" fill="#8BA88E">
+    <path d="M60 470c22-40 58-58 96-58-18 38-52 62-96 58Z"/>
+    <path d="M400 130c-20-34-52-50-86-50 16 34 46 56 86 50Z"/>
+    <path d="M382 470c14-30 40-44 68-44-12 30-38 48-68 44Z"/>
+  </g>
+  <g opacity="0.35" fill="#C69B53">
+    <ellipse cx="92" cy="120" rx="34" ry="16" transform="rotate(-25 92 120)"/>
+    <ellipse cx="372" cy="410" rx="30" ry="14" transform="rotate(30 372 410)"/>
+  </g>
+
+  <!-- soft shadow -->
+  <ellipse cx="230" cy="505" rx="120" ry="18" fill="#252B27" opacity="0.12"/>
+
+  <!-- bottle cap -->
+  <rect x="192" y="96" width="76" height="34" rx="8" fill="#245B43"/>
+  <rect x="192" y="96" width="76" height="12" rx="6" fill="#2F7053"/>
+  <rect x="200" y="124" width="60" height="16" rx="4" fill="#1C4735"/>
+
+  <!-- bottle neck -->
+  <rect x="204" y="138" width="52" height="34" fill="url(#glass)"/>
+
+  <!-- bottle body -->
+  <path d="M204 172 h52 q10 0 12 10 l10 46 q28 14 34 46 l14 154 q2 26-24 26 h-118 q-26 0-24-26 l14-154 q6-32 34-46 l10-46 q2-10 12-10 Z"
+        fill="url(#glass)"/>
+
+  <!-- liquid -->
+  <path d="M188 300 h84 q26 12 32 44 l12 138 q2 20-20 20 h-132 q-22 0-20-20 l12-138 q6-32 32-44 Z"
+        fill="url(#liquid)" opacity="0.92"/>
+
+  <!-- glass highlight -->
+  <path d="M212 200 q-8 40-12 90 l-8 130 q-2 14 8 14 l6 0 q-6-80 2-140 q6-50 14-84 Z"
+        fill="#FFFFFF" opacity="0.35"/>
+
+  <!-- label -->
+  <rect x="164" y="330" width="132" height="120" rx="10" fill="url(#label)" stroke="#D9CFB6" stroke-width="1.5"/>
+
+  <!-- label content (placeholder, no fake text/claims) -->
+  <circle cx="230" cy="364" r="17" fill="none" stroke="#245B43" stroke-width="2.5"/>
+  <path d="M222 370c6-10 10-12 16-16" stroke="#245B43" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <rect x="188" y="392" width="84" height="7" rx="3.5" fill="#245B43" opacity="0.75"/>
+  <rect x="196" y="406" width="68" height="5" rx="2.5" fill="#737B75" opacity="0.55"/>
+  <rect x="204" y="418" width="52" height="5" rx="2.5" fill="#737B75" opacity="0.4"/>
+  <rect x="212" y="432" width="36" height="4" rx="2" fill="#C69B53" opacity="0.8"/>
+
+  <!-- watermark -->
+  <text x="230" y="552" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11"
+        fill="#737B75" opacity="0.75" letter-spacing="1.6">FOTO PRODUK — PLACEHOLDER</text>
+</svg>
